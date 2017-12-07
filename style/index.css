@@ -1,0 +1,192 @@
+@font-face{
+	src:url('font-packs/GothamRoundedBold_21016.ttf');
+	font-family:Gotham Rounded Bold;
+}
+@font-face{
+	src:url('font-packs/arial-rounded.ttf');
+	font-family:Arial Rounded MT Bold;
+}
+@font-face{
+	src:url('font-packs/GothamRounded-Book.otf');
+	font-family:Gotham Rounded Book;
+}
+body{
+	margin:0;
+	padding:0;
+	background-color:#f1f1f1;//#FFD54F
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#signup_bkg{
+	height:30%;
+	width:100%;
+	background-color:#42c5d6;
+	background-image: url(../image/ban.jpg);
+}
+.sg-panel{
+	height: 85%;
+    width: 56%;
+    position: absolute;
+    top:9%;
+    left:22%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 hsla(0,0%,54%,.25);
+    border-radius: 3px;
+    overflow:hidden;
+}
+/*--------- Signup UL-----*/
+.sg-panel>div{
+	width:100%;
+}
+.sg-panel-1{
+	height:12%;
+	//background-color:grey;
+	border-bottom:1px solid #efecec;
+}
+.sg-panel-1>span:nth-child(1){
+	font-family:Gotham Rounded Bold; 
+	font-size:27px;
+	position: relative;
+	top:28%;
+	left:4%;
+	color:#424242;
+}
+.sg-panel-1>span:nth-child(2){
+	font-family:Gotham Rounded Book; 
+	font-size:17px;
+	position: relative;
+	top:35%;
+	right:4%;
+	float:right;
+	color:#424242;
+	border-bottom:2px solid ; 
+}
+.sg-panel-1>span:nth-child(1):hover{
+	cursor:pointer;
+}
+.sg-panel-1>span:nth-child(2):hover{
+	cursor:pointer;
+}
+.sg-panel-2{
+	height:88%;
+	background-color:#fff;
+	padding-top:2%;
+}
+.sg-ul>li{
+	height:12%;
+	//background-color: grey;
+	margin-top:2px;
+	overflow: hidden;
+}
+.sg-ul input[type='text'],.sg-ul input[type='email'],.sg-ul input[type='password'],.sg-ul input[type='tel']{
+	border:none;
+	background-color:silver;
+	height:80%;
+	width:50%;
+	border-radius:2px;
+	margin:4px 1px 1px 6px;
+	text-indent: 4px;
+	padding: 4px;
+	position: relative;
+	left:25%;
+	outline:none;
+	font-family:Gotham Rounded Book;
+	font-weight:500;
+}
+.sg-ul input[type='text']:focus,.sg-ul input[type='email']:focus,.sg-ul input[type='password']:focus,.sg-ul input[type='tel']:focus{
+	background-color: #fff;
+	border:2px solid silver;
+}
+#sg-ul-ul{
+	position: relative;
+	left: 21%;
+}
+#sg-ul-ul>li{
+	float:left;
+	height:100%;
+	width:26.5%;
+	//background-color: red;
+}
+#sg-ul-ul>li input{
+	width:90%;
+	position: relative;
+	left:15%;
+	outline:none;
+}
+#sg-gender{
+	position: relative;
+	left: 25.5%;
+	height:10%;
+	//background-color:red;
+}
+#submit>input[type='submit']{
+	height: 80%;
+    width: 73%;
+    border: none;
+    position: relative;
+    left: 13%;
+    top: 10%;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family:Gotham Rounded Bold;
+    background-color: #f44336;
+    color:#fff;
+    outline:none;
+}
+#submit>input[type='submit']:hover{
+	cursor: pointer;
+}
+#submit>input[type='submit']:active{
+	background-color:#bf360c;
+}
+#sg-name-err{
+	position: relative;
+    left: 3%;
+    top: 24px;
+    font-family: Gotham Rounded Book;
+    font-size: 13px;
+    color: #FF5722;
+}
+.sg-err{
+	position: relative;
+    left: 26%;
+    font-family: Gotham Rounded Book;
+    font-size: 13px;
+    color: #FF5722;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover{
+	border: 1px solid #ffffff;
+    background: #ffffff;
+    font-weight: normal;
+    color: #353535;
+    font-family: Gotham Rounded Bold;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button, .ui-button {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    font-weight: normal;
+    color: #2b2b2b;
+      font-family: Gotham Rounded Book;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+	border: 1px solid #fff;
+	background: #fff;
+	font-weight: normal;
+	color: #2b2b2b;
+	font-family: Gotham Rounded Bold;
+}
